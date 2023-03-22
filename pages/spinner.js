@@ -1,9 +1,9 @@
-import { ClimbingBoxLoader } from 'react-spinners'
+import { PacmanLoader } from 'react-spinners'
 
 function spinner() {
   return (
     <div className='bg-black flex items-center justify-center h-screen'>
-        <ClimbingBoxLoader 
+        <PacmanLoader 
             size={50}
             color={'#38bdf8'}
             loading={true}
